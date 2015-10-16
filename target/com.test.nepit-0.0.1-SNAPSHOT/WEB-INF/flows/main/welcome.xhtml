@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/general.xhtml">
+
+	<ui:define name="title">
+		<h:outputText value="Test Home Page" />
+	</ui:define>
+	<ui:define name="header">
+		<h:outputText value="Test Home Page" />
+	</ui:define>
+
+	<ui:define name="content">
+		 <h:form id="loginForm">
+		<!--<h:dataTable id="logPanelGrid"
+					style="margin: 5px ; margin-top: 25px; text-align: right "
+					cellspacing="8" columns="3" bgcolor="blue" border="1px" >
+				<h:column>
+					<f:facet name="header" style="display:block;margin-bottom: 20px">Name</f:facet>
+
+				</h:column>
+				<h:column>
+					<f:facet name="header" style="display:block;margin-bottom: 20px">Department</f:facet>
+
+				</h:column>
+				<h:column>
+					<f:facet name="header" style="display:block;margin-bottom: 20px">Age</f:facet>
+
+				</h:column>
+				<h:column>
+					<f:facet name="header">Salary</f:facet>
+
+				</h:column>
+			</h:dataTable>
+		
+		
+			  <p:fieldset styleClass="fieldset" legend="Menu">
+				<p:focus />
+				<p:messages id="messages" globalOnly="true" />
+				 <p:growl id="msgs" showDetail="true" />
+             
+    <h3 style="margin-top: 0">Basic OrderList</h3>
+    <p:orderList value="#{orderListView.cities}" var="city" controlsLocation="none" itemLabel="#{city}" itemValue="#{city}" />
+    <p:commandButton value="Submit" update="displayCities" oncomplete="PF('cityDialog').show()" style="margin-top:5px" />
+ 
+				<h:panelGrid id="logPanelGrid"
+					style="margin: 0 auto; margin-top: 25px; text-align: right"
+					cellspacing="8" columns="3">
+				<h:panelGrid id="logPanelGrid">
+
+					 <p:commandButton id="submitButton" action="confirmSignIn" update="logPanelGrid,messages" icon="ui-icon-plus" value="User Login" />
+					<p:commandButton id="submitButton" action="confirmSignIn"
+						update="logPanelGrid,messages" icon="ui-icon-check"
+						value="Owner Login" />
+
+					<p:commandButton value="Print" type="button" icon="ui-icon-print"
+						style="display:block;margin-bottom: 20px">
+						<p:printer target="image" />
+					</p:commandButton>
+
+					<p:graphicImage id="image" name="/css/images/nepalimg.jpg" />
+				</h:panelGrid>
+			</p:fieldset>
+
+			<h:dataTable id="logPanelGrid"
+					style="margin: 5px ; margin-top: 25px; text-align: right"
+					cellspacing="8" columns="3">
+				<h:column>
+					<f:facet name="header" style="display:block;margin-bottom: 20px">Name</f:facet>
+
+				</h:column>
+				<h:column>
+					<f:facet name="header" style="display:block;margin-bottom: 20px">Department</f:facet>
+
+				</h:column>
+				<h:column>
+					<f:facet name="header" style="display:block;margin-bottom: 20px">Age</f:facet>
+
+				</h:column>
+				<h:column>
+					<f:facet name="header">Salary</f:facet>
+
+				</h:column>
+			</h:dataTable>
+
+			</p:fieldset>  -->
+		</h:form>
+
+
+	</ui:define>
+
+</ui:composition>

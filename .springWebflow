@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.6.4.201503051146-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>src/main/webapp/WEB-INF/applicationContext.xml</file>
+			<name><![CDATA[applicationContext]]></name>
+		</config>
+		<config>
+			<file>src/main/webapp/WEB-INF/datasource-config.xml</file>
+			<name><![CDATA[datasource-config]]></name>
+		</config>
+		<config>
+			<file>src/main/webapp/WEB-INF/security-config.xml</file>
+			<name><![CDATA[security-config]]></name>
+		</config>
+		<config>
+			<file>src/main/webapp/WEB-INF/webflow-config.xml</file>
+			<name><![CDATA[webflow-config]]></name>
+		</config>
+	</configs>
+</webflow-project-description>
